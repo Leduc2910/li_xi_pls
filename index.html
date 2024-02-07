@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="title">
+    <span>Tết này lì xì tao nhé!</span>
+  </div>
+    <div class="image">
+      <img src="element/cheems02.png" id="img-change" width="200" height="300"/>
+    </div>
+    <div class="btn">
+        <div class="wrap-btn-1">
+            <button class="btn-1" id="btn-1" onmouseover="changeImg()" onmouseleave="restoreImg()" onclick="showPopup()">NHẤT TRÍ</button>
+        </div>
+        <div class="wrap-btn-2">
+            <button class="btn-2" onclick="moveBtn()" id="btn-2">ĐÉO</button>
+        </div>
+    </div>
+</div>
+<div class="pop-up" id="pop-up">
+    <img src="element/qr2.jpg"/>
+    <h1>Đúng là bạn iu của tui hehe</h1>
+    <span>STK đây nha : 498282128921 - MB Bank</span><br><br>
+    <button onclick="closepopup()">Xinnnn</button>
+</div>
+<script src="javascript/main.js"></script>
+</body>
+</html>

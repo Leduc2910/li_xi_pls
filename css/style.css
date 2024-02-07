@@ -1,0 +1,90 @@
+body {
+    background-color: #e30303;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title span {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.image {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.btn .wrap-btn-1 {
+    height: 50px;margin-bottom: 20px;
+}
+.btn .wrap-btn-2 {
+    height: 50px;
+    width: 150px;
+}
+.btn-1 {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-2 {
+    background-color: #cbcb28;
+    color: WHITE;
+    font-weight: 600;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+}
+.pop-up {
+    position: absolute;
+    width: 700px;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.pop-up img {
+ width: 300px;
+}
+.pop-up span {
+    font-size: larger;
+}
+.pop-up button {
+    background-color: #ef4444;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    width: 120px;
+    color: white;
+    font-size: larger;
+}
